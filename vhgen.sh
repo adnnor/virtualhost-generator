@@ -1,6 +1,7 @@
 #!/bin/bash
 # Came from https://github.com/adnnor/virtualhost-generator
-# Any question? Head to my website and contact me :)
+# @author: Adnan Shahzad
+# @Email: adnnor@gmail.com
 
 FILE="$0"
 if [ "$EUID" -ne 0 ]; then 
