@@ -6,9 +6,12 @@ This bash script will help you to generate VirtualHost for Ubuntu 16.04 LTS (Xen
 - Clone the repository
 - Open terminal and run
 ```bash
-sudo bash vhgen.sh
+$ wget https://raw.githubusercontent.com/adnnor/virtualhost-generator/master/vhgen.sh
+$ chmod +x ./vhgen.sh
+$ sudo mv vhgen.sh /usr/local/bin/vhgen
+$ sudo vhgen
 ```
-Following is output of the script
+Sample output
 ```bash
 
                               #######################################
