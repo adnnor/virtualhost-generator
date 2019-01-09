@@ -12,7 +12,7 @@ $ sudo mv vhgen.sh /usr/local/bin/vhgen
 $ sudo vhgen
 ```
 Sample output
-```bash
+```text
 
                               #######################################
                                   Welcome to VirtualHost Generator
