@@ -12,20 +12,21 @@ $ sudo vhgen
 Sample output
 ```text
 
-                              #######################################
-                                  Welcome to VirtualHost Generator
-                              #######################################
+                                             #######################################
+                                                 Welcome to VirtualHost Generator
+                                             #######################################
 
-Enter project name exluding .tld or subdomain: testing
+Enter project name e.g. 'myproject': ad
+Subdomain e.g. dev, staging: dev
+TLD e.g. com, org: com
+Set alias, leave blank for default dev.ad.com: 
 Apache's DocumentRoot please, leave blank for /var/www: 
 IP address for domain, leave blank for 127.0.0.1: 
 Do you want to proceed? (y/n): y
-Enabling site dev.testing2.com.
-To activate the new configuration, you need to run:
-  systemctl reload apache2
+Site dev.ad.com enabled
 Done ...
-DocumentRoot is /var/www/testing2/public_html
-URL is dev.testing2.com
+DocumentRoot is /var/www/ad/dev/public_html
+URL is dev.ad.com (Alias dev.ad.com)
 Thank you :) ba bye!
 ```
 
